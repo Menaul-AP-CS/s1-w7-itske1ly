@@ -1,5 +1,22 @@
 public class WordGuessingMain{
     public static void main(String[] args){
+        WordGuessing myWord = new WordGuessing("u");
         
+        //first method
+        String x = myWord.firstLetter("KELLY");
+        System.out.println(x);
+        
+        //second method
+        String x1 = myWord.lastLetter("dance");
+        System.out.println(x1);
+
+        //third method
+        String x3 = myWord.middlePart("perfect");
+        System.out.println(x3);
+
+        //fourth method
+        int x4 = myWord.findLetter("science", "n");
+        System.out.println(x4);
+
     }
 }
