@@ -1,6 +1,6 @@
 public class WordGuessingMain{
     public static void main(String[] args){
-        WordGuessing myWord = new WordGuessing("u");
+        WordGuessing myWord = new WordGuessing("interesting");
         
         //first method
         String x = myWord.firstLetter("KELLY");
@@ -17,6 +17,21 @@ public class WordGuessingMain{
         //fourth method
         int x4 = myWord.findLetter("science", "n");
         System.out.println(x4);
+
+      
+      
+      
+      
+      
+      
+      
+        //PART D TESTING
+       /*  Wordguessing game = new Wordguessing("kick");
+        System.out.println(game.getUserString()); //should print "____"
+        game.update("p");
+        System.out.println(game.getUserString()); // should print "_pp__"
+
+*/
 
     }
 }

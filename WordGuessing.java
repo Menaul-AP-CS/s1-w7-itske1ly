@@ -4,7 +4,7 @@ public class WordGuessing {
   
     //we will say that secret must be five characters
     public WordGuessing(String secret) {
-  
+      
     }
   
     public void update(String letter) {
@@ -29,6 +29,16 @@ public class WordGuessing {
     public int findLetter(String word,String letter){
       int n = word.indexOf(letter);
       return n;
+    }
+    public String replaceAt(String word, int index,String letter){
+      String firstLetter = word.substring(0,letter);
+      String lastLetters = word.substring(letter + 1,word.length());
+      return (firstLetter, letter , lastLetters);
+    }
+    public String hideLetter(String word, String letter){
+      String firstLetter = word.substring(0 , letter);
+      String lastLetters = word.substring(letter + 1 , word.length());
+      return ( firstLetter , letter , lastLetters);
     }
   }
   
