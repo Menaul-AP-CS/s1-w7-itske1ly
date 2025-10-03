@@ -21,3 +21,6 @@ public class TestMain {
         String s2 = "oh no!";
         String f2 = new String("oh no!");
         Boolean k2 = (s2 == f2);
+        System.out.println(k2);
+    }
+}
