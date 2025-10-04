@@ -26,19 +26,21 @@ public class WordGuessing {
       String n = word.substring(word.length()-1);
       return n;
     }
-    public int findLetter(String word,String letter){
-      int n = word.indexOf(letter);
+    /*public int findLetter(String word,String letter){
+      int n = word.indexOf();
       return n;
     }
     public String replaceAt(String word, int index,String letter){
-      String firstLetter = word.substring(0,letter);
-      String lastLetters = word.substring(letter + 1,word.length());
+      int index = word.indexOf(letter);
+      String firstLetter = word.substring(0,index);
+      String lastLetters = word.substring(index + 1,word.length());
       return (firstLetter, letter , lastLetters);
     }
     public String hideLetter(String word, String letter){
       String firstLetter = word.substring(0 , letter);
-      String lastLetters = word.substring(letter + 1 , word.length());
+      String lastLetters = word.substring(index + 1 , word.length());
       return ( firstLetter , letter , lastLetters);
     }
-  }
+  */}
+
   

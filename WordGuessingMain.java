@@ -1,14 +1,14 @@
 public class WordGuessingMain{
     public static void main(String[] args){
-        WordGuessing myWord = new WordGuessing("interesting");
-        String a ="apple";
+        WordGuessing word = new WordGuessing("interesting");
+       /*  String a ="apple";
         String b = "banana";
 
         System.out.println(a.compareTo(b));
         System.out.println(b.compateTo(a));
-        System.out.println("apple");
+        System.out.println("apple");*/
         
-        /*//first method
+       /*  //first method
         String x = myWord.firstLetter("KELLY");
         System.out.println(x);
         
@@ -22,7 +22,7 @@ public class WordGuessingMain{
 
         //fourth method
         int x4 = myWord.findLetter("science", "n");
-        System.out.println(x4);
+        System.out.println(x4);q
 
       
       
