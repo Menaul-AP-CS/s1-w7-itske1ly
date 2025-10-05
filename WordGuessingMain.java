@@ -1,43 +1,14 @@
 public class WordGuessingMain{
     public static void main(String[] args){
-        WordGuessing myWord = new WordGuessing("interesting");
-       /*  String a ="apple";
-        String b = "banana";
+            WordGuessing myWord = new WordGuessing("interesting");
 
-        System.out.println(a.compareTo(b));
-        System.out.println(b.compateTo(a));
-        System.out.println("apple");*/
-        
-       /*  //first method
-        String x = myWord.firstLetter("KELLY");
-        System.out.println(x);
-        
-        //second method
-        String x1 = myWord.lastLetter("dance");
-        System.out.println(x1);
-
-        //third method
-        String x3 = myWord.middlePart("perfect");
-        System.out.println(x3);
-
-        //fourth method
-        int x4 = myWord.findLetter("science", "n");
-        System.out.println(x4);q
-
-      
-      
-      
-      
-      
-      
-      
-        //PART D TESTING
-       /*  Wordguessing game = new Wordguessing("kick");
-        System.out.println(game.getUserString()); //should print "____"
-        game.update("p");
-        System.out.println(game.getUserString()); // should print "_pp__"
-
-*/
-
+            String word = "interesting";
+ 
+            System.out.println(myWord.firstLetter(word));
+            System.out.println(myWord.lastLetter(word));
+            System.out.println(myWord.middlePart(word));
+            System.out.println(myWord.findLetter(word, "r"));
+            System.out.println(myWord.replaceAt(word , 5 , "a"));
+            System.out.println(myWord.hideLetter(word, "e"));
     }
 }
