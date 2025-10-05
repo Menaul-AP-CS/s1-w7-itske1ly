@@ -1,6 +1,6 @@
 public class WordGuessingMain{
     public static void main(String[] args){
-        WordGuessing word = new WordGuessing("interesting");
+        WordGuessing myWord = new WordGuessing("interesting");
        /*  String a ="apple";
         String b = "banana";
 
