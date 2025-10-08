@@ -4,7 +4,7 @@ public class WordGuessing {
   
     //we will say that secret must be five characters
     public WordGuessing(String secret) {
-      /*wordToBeGuessed = secret;*/
+      
     }
   
     public void update(String letter) {
