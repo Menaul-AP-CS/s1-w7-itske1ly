@@ -42,6 +42,14 @@ public class WordGuessing {
       String lastLetters = word.substring(index + 1);
       return  firstLetter + "_" + lastLetters;
     }
+
+    public boolean letterExist(String letter){
+      if (secretWord.indexOf(letter)!= -1){
+        return true;
+      }else {
+        return false;
+      }
+    }
   }
 
   
