@@ -4,7 +4,7 @@ public class WordGuessing {
   
     //we will say that secret must be five characters
     public WordGuessing(String secret) {
-      
+      secret = wordToBeGuessed;
     }
   
     public void update(String letter) {
@@ -42,14 +42,19 @@ public class WordGuessing {
       String lastLetters = word.substring(index + 1);
       return  firstLetter + "_" + lastLetters;
     }
-
-    public boolean letterExist(String letter){
+    public String getUserString(){
+      return userString;
+    }
+    public void update(String letter){
+      
+    }
+    /*public boolean letterExist(String letter){
       if (secretWord.indexOf(letter)!= -1){
         return true;
       }else {
         return false;
       }
-    }
+    }*/
   }
 
   
