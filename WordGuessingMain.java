@@ -10,5 +10,12 @@ public class WordGuessingMain{
             System.out.println(myWord.findLetter(word, "r"));
             System.out.println(myWord.replaceAt(word , 5 , "a"));
             System.out.println(myWord.hideLetter(word, "e"));
+
+
+
+            WordGuessing game = new WordGuessing("apple");
+            System.out.println(game.getUserString()); // should print "_____"
+            game.update("p");
+            System.out.println(game.getUserString()); // should print "_p___" (notice how this only updates the first "p"!)
     }
 }
