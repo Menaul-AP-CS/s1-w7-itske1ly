@@ -13,9 +13,13 @@ public class WordGuessingMain{
 
 
 
-            WordGuessing game = new WordGuessing("apple");
+           /*  WordGuessing game = new WordGuessing("apple");
             System.out.println(game.getUserString()); // should print "_____"
             game.update("p");
-            System.out.println(game.getUserString()); // should print "_p___" (notice how this only updates the first "p"!)
+            System.out.println(game.getUserString()); // should print "_p___" (notice how this only updates the first "p"!)*/
+
+            String text ="category";
+            //System.out.println(text.indexOf(" "));
+            System.out.println(text.substring(0,20));
     }
 }

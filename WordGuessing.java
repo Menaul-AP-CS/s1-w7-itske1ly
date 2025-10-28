@@ -46,7 +46,7 @@ public class WordGuessing {
       return userString;
     }
     public void update(String letter){
-      
+      String x=wordToBeGuessed.indexOf(letter)
     }
     /*public boolean letterExist(String letter){
       if (secretWord.indexOf(letter)!= -1){
